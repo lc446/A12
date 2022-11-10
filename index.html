@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookie Example</title>
+</head>
+<script>
+    let to_change = document.getElementById('text_cookie').value;
+    document.getElementById('cook').innerHTML = to_change;
+
+</script>
+<body>
+    <h1>Cookie Example</h1>
+    <h3>Set your cookie below!</h3>
+    <p id="cook">This will change</p>
+    <form action="index.html" method="POST">
+        <input type="text" id="text_cookie">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
